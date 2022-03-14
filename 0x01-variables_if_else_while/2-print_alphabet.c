@@ -1,21 +1,38 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_alphabet_x10 - print lowercase alphabet ten times
- * Return: 0
+
+ * main - Program entry point
+
+ *
+
+ * Return: 0 on success. Error code otherwise
+
  */
 
-void print_alphabet_x10(void)
-{
-	char alpha;
-	int counter;
+int main(void)
 
-	for (counter = 1; counter <= 10; counter++)
-	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
-		{
-			_putchar(alpha);
-		}
-		_putchar('\n');
-	}
+{
+
+    char a = 'a';
+
+    int n = 0;
+
+
+    while (n < 26)
+
+    {
+
+        putchar(a);
+
+        a++;
+
+        n++;
+
+    }
+
+    putchar('\n');
+
+    return (0);
+
 }
