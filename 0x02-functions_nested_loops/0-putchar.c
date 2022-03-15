@@ -1,9 +1,4 @@
-#include <unistd.h>
- 
-int main(void)
-{
-	 _putchar();
-	 return (0);
+#include "main.h"
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
